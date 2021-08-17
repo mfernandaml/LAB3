@@ -1,0 +1,115 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    width: 220px;
+    height: 360px;
+    background-color: #f2f8f0;
+    border-radius: 25px;
+    padding: 50px;
+    border: 8px solid black;
+    margin-right: 20px;
+}
+
+.tarjeta img{
+    padding-left: 30px;
+    width: 90px;
+}
+
+.tarjeta p{
+    text-align: justify;
+    margin-bottom: 50px;
+} 
+
+.title{
+    text-align: center;
+    color: rosybrown;
+    margin-top: 120px;
+    font-size: 70px;
+}
+
+.tarjeta:hover{
+    background-color: rgb(34, 202, 118);
+    color: rgb(231, 247, 8);
+    transition: 540ms;
+}
+
+.tarjeta a{
+    text-decoration: none;
+    color: rosybrown;
+    font-size: 18px;
+    background-color: gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+body:hover{
+    background-color: springgreen;
+    transition: 800ms;
+}
+
+/* reto */ 
+
+.tarjeta a:hover{
+    background-color:rgba(0, 38, 255, 0.301);
+    color: black;
+    transition: 540ms;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #4AC29A;  /* fallback for old browsers */
+background: linear-gradient(to right, #BDFFF3, #4AC29A), url(../imagenes/logo.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #BDFFF3, #4AC29A), url(../imagenes/logo.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30 px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height:430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: rgba(225, 241, 74, 0.89);
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(211, 238, 56);
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
